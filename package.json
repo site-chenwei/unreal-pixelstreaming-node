@@ -1,0 +1,38 @@
+{
+  "name": "unreal-pixelstreaming-node",
+  "version": "0.0.16",
+  "description": "虚幻引擎像素流Node客户端插件",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/site-chenwei/unreal-pixelstreaming-node.git"
+  },
+  "keywords": [
+    "PixelStreaming",
+    "Unreal",
+    "Engine",
+    "Node"
+  ],
+  "author": "chenwei116057@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/site-chenwei/unreal-pixelstreaming-node/issues"
+  },
+  "homepage": "https://github.com/site-chenwei/unreal-pixelstreaming-node#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.4"
+  }
+}
