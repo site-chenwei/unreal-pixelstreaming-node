@@ -1,13 +1,14 @@
 export class UnrealAdapterHook {
-  onAnswer?: (o?: any) => void;
-  onConfig?: (o?: any) => void;
-  onIceCandidate?: (o?: any) => void;
-  onPlayerCount?: (o?: any) => void;
-  onMessage?: (m?: AdapterMessage) => void;
+    onAnswer?: (o?: any) => void;
+    onConfig?: (o?: any) => void;
+    onIceCandidate?: (o?: any) => void;
+    onPlayerCount?: (o?: any) => void;
+    onMessage?: (m?: AdapterMessage) => void;
+    onVideoInitialised?: () => void
 }
 
 export interface AdapterMessage {
-  _message: any;
-  _date: string;
-  _code: string;
+    _message: any;
+    _date: string;
+    _code: string;
 }
